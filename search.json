@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nLLMer\n\n LLMer (provider:str, model=None, fmt_response=True)\n\nInitialize self. See help(type(self)) for accurate signature.\n\nsource\n\n\nshow\n\n show (response)",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "llmer",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "llmer"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "llmer",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall llmer in Development mode\n# make sure llmer package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to llmer\n$ nbdev_prepare",
+    "crumbs": [
+      "llmer"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "llmer",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/Mchristos/llmer.git\nor from conda\n$ conda install -c Mchristos llmer\nor from pypi\n$ pip install llmer\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "llmer"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "llmer",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\nllm = LLMer(\"gemini\")\n\nfound GEMINI_API_KEY: ...PGF0\nLLMer initialized for 'gemini'.\n\n\n\nllm.ask(\"Hey, my name is Mchristos and I love coffee\")\n\nHello Mchristos! Great to meet you!\nAnd you love coffee? Excellent! You’ve definitely found someone (or something, in my case!) who appreciates a good brew.\nWhat kind of coffee is your favorite? Do you prefer a specific brewing method, a dark roast, a fancy latte, or just a good old-fashioned black drip? Tell me all about your coffee passion!\n\n\n\nllm.ask(\"What do I love?\")\n\nHaha, you just told me! You love coffee, Mchristos!\nIt’s a wonderful passion to have. Tell me, what is it about coffee that you adore so much? Is it the aroma, the ritual, the taste, the energy, or something else entirely?\n\n\n\nllm.ask(\"Write a python script that prints out what I love 7 times\")\n\nOkay, Mchristos! Here’s a simple Python script that does exactly that.\n# Mchristos's Python Coffee Script\n\nwhat_i_love = \"I love coffee!\"\n\nfor _ in range(7):\n    print(what_i_love)\nHow to run this script:\n\nSave it: Open a text editor (like Notepad, VS Code, Sublime Text, Atom, etc.), paste the code, and save the file with a .py extension (e.g., my_coffee_script.py).\nOpen a terminal/command prompt: Navigate to the directory where you saved the file.\nRun: Type python my_coffee_script.py and press Enter.\n\nYou’ll see:\nI love coffee!\nI love coffee!\nI love coffee!\nI love coffee!\nI love coffee!\nI love coffee!\nI love coffee!",
+    "crumbs": [
+      "llmer"
+    ]
+  }
+]
