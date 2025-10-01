@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://Mchristos.github.io',
                 'git_url': 'https://github.com/Mchristos/llmer',
                 'lib_path': 'llmer'},
-  'syms': {'llmer.core': {'llmer.core.foo': ('core.html#foo', 'llmer/core.py')}}}
+  'syms': { 'llmer.core': { 'llmer.core.LLMer': ('core.html#llmer', 'llmer/core.py'),
+                            'llmer.core.LLMer.__init__': ('core.html#llmer.__init__', 'llmer/core.py'),
+                            'llmer.core.LLMer.ask': ('core.html#llmer.ask', 'llmer/core.py'),
+                            'llmer.core.show': ('core.html#show', 'llmer/core.py')}}}
