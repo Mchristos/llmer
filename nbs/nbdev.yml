@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "llmer"
+  site-url: "https://Mchristos.github.io/llmer"
+  description: "easily interact with llms from your notebook"
+  repo-branch: main
+  repo-url: "https://github.com/Mchristos/llmer"
